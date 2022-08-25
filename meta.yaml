@@ -1,0 +1,17 @@
+{% set version = "3.1.0" %}
+
+package:
+  name: imagesize
+  version: {{ version }}
+
+source:
+  url: https://github.com/StefanSchippers/xschem/archive/refs/tags/{{ version }}.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - xorg-libx11
+  run:
+    - xorg-libx11

@@ -1,0 +1,15 @@
+# Virtue development environment
+name: xschem-recipe-dev
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - make = 4.3
+  - conda
+  - conda-build
+  - conda-verify
+  - mamba
+  - boa
